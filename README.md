@@ -18,11 +18,19 @@ edit ./deploy.sh by replacing ${LAMBDA_REGION} and ${FUNCTION-NAME} and run this
 
 # environment variables: 
 s3Bucket -- target bucket  
+
 s3BasePath -- optional, the base folder in target bucket
+
 s3Region -- bucket region
+
 httpUrl -- http clone url of codecommit repo
+
 accessKey -- KMS encrypted username of codecommit repo
+
 secretKey -- KMS encrypted password of codecommit repo
+
 sesRegion -- region of ses
+
 fromEmail -- sender's email
+
 toEmail -- receivers' emails. seperated by ","
