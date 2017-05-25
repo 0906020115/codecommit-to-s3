@@ -1,4 +1,4 @@
-# git-to-s3
+# codecommit-to-s3
 This is a AWS Lambda function that will be triggered by AWS Codecommit push event. It will load files from codecommit and synchronize them to s3 bucket. An notification email will be sent after it finish all the file uploads.
 
 # Use case
